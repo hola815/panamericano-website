@@ -29,7 +29,7 @@ const programs = [
     id: "basico",
     icon: Users,
     level: "Nivel Básico",
-    grades: "7° a 9° Grado",
+    grades: "1° a 3° Grado",
     description:
       "Potenciamos habilidades analíticas y sociales preparando a nuestros estudiantes para los desafíos del diversificado y la vida adulta.",
     highlights: [
@@ -47,7 +47,8 @@ const programs = [
     id: "diversificado",
     icon: Star,
     level: "Diversificado",
-    grades: "10° a 12° Grado",
+    grades: "4° y 5° Bachillerato",
+    gradesExtra: "4° y 5° y 6° Peritos",
     description:
       "Formación técnica y humanística para ingresar a la universidad y al mercado laboral con las competencias del siglo XXI.",
     highlights: [
@@ -200,9 +201,14 @@ export default function Programs() {
                     <h3 className="font-extrabold text-lg text-primary-700 mb-0.5">
                       {prog.level}
                     </h3>
-                    <p className={`text-xs font-bold uppercase tracking-wider ${prog.textColor} mb-3`}>
+                    <p className={`text-xs font-bold uppercase tracking-wider ${prog.textColor} mb-0.5`}>
                       {prog.grades}
                     </p>
+                    {"gradesExtra" in prog && (
+                      <p className={`text-xs font-bold uppercase tracking-wider ${prog.textColor} mb-3`}>
+                        {(prog as typeof prog & { gradesExtra: string }).gradesExtra}
+                      </p>
+                    )}
 
                     {/* Description */}
                     <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1 line-clamp-4">
