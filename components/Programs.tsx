@@ -201,14 +201,16 @@ export default function Programs() {
                     <h3 className="font-extrabold text-lg text-primary-700 mb-0.5">
                       {prog.level}
                     </h3>
-                    <p className={`text-xs font-bold uppercase tracking-wider ${prog.textColor} mb-0.5`}>
-                      {prog.grades}
-                    </p>
-                    {"gradesExtra" in prog && (
-                      <p className={`text-xs font-bold uppercase tracking-wider ${prog.textColor} mb-3`}>
-                        {(prog as typeof prog & { gradesExtra: string }).gradesExtra}
+                    <div className="min-h-[2.5rem] mb-3">
+                      <p className={`text-xs font-bold uppercase tracking-wider ${prog.textColor}`}>
+                        {prog.grades}
                       </p>
-                    )}
+                      {"gradesExtra" in prog && (
+                        <p className={`text-xs font-bold uppercase tracking-wider ${prog.textColor}`}>
+                          {(prog as typeof prog & { gradesExtra: string }).gradesExtra}
+                        </p>
+                      )}
+                    </div>
 
                     {/* Description */}
                     <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1 line-clamp-4">
