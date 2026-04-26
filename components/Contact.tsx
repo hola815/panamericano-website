@@ -281,7 +281,6 @@ export default function Contact() {
                       <option>Nivel Básico</option>
                       <option>Diversificado</option>
                       <option>Educación para Adultos</option>
-                      <option>Modalidad en Línea</option>
                     </select>
                   </div>
 
