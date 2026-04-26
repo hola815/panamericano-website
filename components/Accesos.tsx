@@ -74,17 +74,12 @@ export default function Accesos() {
           {accesos.map((item, i) => {
             const Icon = item.icon;
             return (
-              <motion.a
+              <a
                 key={item.title}
                 href={item.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                initial={{ opacity: 0, y: 30 }}
-                animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: i * 0.1 }}
-                className={`group bg-white rounded-3xl p-6 shadow-md hover:shadow-xl ${item.hoverColor} transition-all duration-400 hover:-translate-y-2 border border-white flex flex-col`}
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
+                className={`group bg-white rounded-3xl p-6 shadow-md hover:shadow-xl ${item.hoverColor} transition-all duration-300 border border-white flex flex-col`}
               >
                 {/* Icon */}
                 <div
@@ -109,7 +104,7 @@ export default function Accesos() {
                     className="transition-transform duration-300 group-hover:translate-x-1"
                   />
                 </div>
-              </motion.a>
+              </a>
             );
           })}
         </div>

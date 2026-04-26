@@ -87,11 +87,8 @@ export default function OnlineEducation() {
               {features.map((feature, i) => {
                 const Icon = feature.icon;
                 return (
-                  <motion.div
+                  <div
                     key={feature.title}
-                    initial={{ opacity: 0, y: 20, filter: "blur(8px)" }}
-                    animate={inView ? { opacity: 1, y: 0, filter: "blur(0px)" } : {}}
-                    transition={{ duration: 0.6, delay: 0.3 + i * 0.1 }}
                     className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:bg-white/10 hover:border-white/20 transition-all duration-300"
                   >
                     <div className="w-9 h-9 rounded-xl bg-accent-500/20 flex items-center justify-center mb-3">
@@ -103,7 +100,7 @@ export default function OnlineEducation() {
                     <p className="text-white/60 text-xs leading-relaxed">
                       {feature.description}
                     </p>
-                  </motion.div>
+                  </div>
                 );
               })}
             </div>
