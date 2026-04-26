@@ -147,7 +147,7 @@ export default function Hero() {
             className="mt-14 flex flex-wrap justify-center gap-8 sm:gap-12"
           >
             {[
-              { value: "+28", label: "Años de Experiencia" },
+              { value: "+30", label: "Años de Experiencia" },
               { value: "100%", label: "Online Disponible" },
               { value: "Nacional", label: "Cobertura" },
             ].map((stat) => (

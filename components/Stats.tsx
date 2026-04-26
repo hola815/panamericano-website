@@ -28,7 +28,7 @@ function Counter({ to, suffix = "", prefix = "", duration = 2000 }: { to: number
 const stats = [
   {
     icon: Award,
-    value: 28,
+    value: 30,
     prefix: "+",
     suffix: "",
     display: "text",

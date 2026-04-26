@@ -76,7 +76,7 @@ export default function About() {
               className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-primary-700 leading-tight tracking-tight mb-6"
             >
               Más de{" "}
-              <span className="text-gradient">28 años</span>{" "}
+              <span className="text-gradient">30 años</span>{" "}
               formando el futuro
             </motion.h2>
 
