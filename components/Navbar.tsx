@@ -55,7 +55,7 @@ export default function Navbar() {
 
   return (
     <>
-      /* GLOBAL-NAV */
+      {/* GLOBAL-NAV */}
       <motion.header
         id="global-nav"
         data-block="GLOBAL-NAV"
