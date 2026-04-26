@@ -81,9 +81,9 @@ export default function About() {
             </motion.h2>
 
             {/* Editable: Text (C3) */}
-            <motion.p variants={itemVariants} className="text-gray-600 text-lg leading-relaxed mb-4 max-w-lg">
+            <motion.p variants={itemVariants} className="text-gray-600 text-base leading-relaxed mb-4 max-w-lg">
               Colegio Panamericano nació en{" "}
-              <span className="font-bold text-primary-700 text-xl lg:text-2xl">1996</span>{" "}
+              <span className="font-bold text-primary-700 text-lg">1996</span>{" "}
               con una visión clara: ofrecer{" "}
               <span className="text-accent-500 font-semibold">educación de calidad</span>{" "}
               accesible para todos los guatemaltecos, sin importar su ubicación. Hoy somos{" "}
@@ -95,7 +95,7 @@ export default function About() {
             </motion.p>
 
             {/* Editable: Text (C4) */}
-            <motion.p variants={itemVariants} className="text-gray-500 leading-relaxed mb-8 max-w-lg">
+            <motion.p variants={itemVariants} className="text-gray-500 text-base leading-relaxed mb-8 max-w-lg">
               Nuestra propuesta combina{" "}
               <span className="text-gray-700 font-medium">experiencia institucional</span>{" "}
               con{" "}
