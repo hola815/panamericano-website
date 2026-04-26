@@ -52,9 +52,9 @@ const programs = [
     description:
       "Formación técnica y humanística para ingresar a la universidad y al mercado laboral con las competencias del siglo XXI.",
     highlights: [
-      "Bachillerato en Ciencias",
+      "Bachillerato en Ciencias con Especialidad",
+      "Tecnología de vanguardia",
       "Bachillerato en Computación",
-      "Magisterio (opciones vigentes)",
       "Preparación universitaria",
     ],
     color: "from-accent-500 to-accent-600",
