@@ -39,7 +39,7 @@ export default function About() {
 
   return (
     /* HOME-C-ABOUT */
-    <section id="nosotros" data-block="HOME-C-ABOUT" className="relative w-full overflow-hidden bg-gradient-to-br from-blue-100/80 via-primary-100/50 to-blue-100/70 py-12 lg:py-24" ref={ref}>
+    <section id="nosotros" data-block="HOME-C-ABOUT" data-section="Startseite / Über uns" className="relative w-full overflow-hidden bg-gradient-to-br from-blue-100/80 via-primary-100/50 to-blue-100/70 py-12 lg:py-24" ref={ref}>
 
       {/* Decorative background circles */}
       <motion.div className="absolute top-8 left-8 w-32 h-32 rounded-full bg-primary-100/20 pointer-events-none" variants={floatingVariants} animate="animate" />
@@ -73,6 +73,7 @@ export default function About() {
             {/* Editable: Headline (C2) */}
             <motion.h2
               variants={itemVariants}
+              data-editable="headline"
               className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-primary-700 leading-tight tracking-tight mb-6"
             >
               Más de{" "}
@@ -81,7 +82,7 @@ export default function About() {
             </motion.h2>
 
             {/* Editable: Text (C3) */}
-            <motion.p variants={itemVariants} className="text-gray-600 text-base leading-relaxed mb-4 max-w-lg">
+            <motion.p variants={itemVariants} data-editable="text" className="text-gray-600 text-base leading-relaxed mb-4 max-w-lg">
               Colegio Panamericano nació en{" "}
               <span className="font-bold text-primary-700 text-lg">1996</span>{" "}
               con una visión clara: ofrecer{" "}

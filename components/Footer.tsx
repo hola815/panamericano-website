@@ -59,7 +59,7 @@ export default function Footer() {
 
   return (
     /* GLOBAL-FOOTER */
-    <footer id="global-footer" data-block="GLOBAL-FOOTER" className="bg-primary-900 text-white">
+    <footer id="global-footer" data-block="GLOBAL-FOOTER" data-component="Footer" className="bg-primary-900 text-white">
 
       {/* Main footer */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-28 sm:pt-32 lg:pt-36 pb-16">

@@ -44,7 +44,7 @@ export default function Accesos() {
 
   return (
     /* HOME-G-ACCESOS */
-    <section id="accesos" data-block="HOME-G-ACCESOS" className="py-12 lg:py-24 bg-primary-50" ref={ref}>
+    <section id="accesos" data-block="HOME-G-ACCESOS" data-section="Startseite / Zugänge" className="py-12 lg:py-24 bg-primary-50" ref={ref}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div

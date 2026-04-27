@@ -59,6 +59,7 @@ export default function Navbar() {
       <motion.header
         id="global-nav"
         data-block="GLOBAL-NAV"
+        data-component="Header"
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
@@ -85,7 +86,7 @@ export default function Navbar() {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-1">
+            <nav className="hidden lg:flex items-center gap-1" data-component="Navigation">
               {navLinks.map((link) =>
                 link.children ? (
                   <div

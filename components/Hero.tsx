@@ -18,6 +18,7 @@ export default function Hero() {
     <section
       id="inicio"
       data-block="HOME-A-HERO"
+      data-section="Startseite / Hero"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Gradient Background */}
@@ -91,6 +92,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
+            data-editable="headline"
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-[1.1] tracking-tight mb-6"
           >
             Educación{" "}
@@ -103,6 +105,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
+            data-editable="text"
             className="text-lg sm:text-xl md:text-2xl text-white/75 leading-relaxed mb-10 max-w-2xl mx-auto"
           >
             Innovación, inclusión y futuro. Formamos líderes desde primaria hasta
@@ -121,6 +124,7 @@ export default function Hero() {
             {/* Editable: Button (A4) */}
             <Link
               href="#programas"
+              data-editable="button"
               className="btn-primary text-base px-8 py-4 group"
             >
               Ver Programas
@@ -132,6 +136,7 @@ export default function Hero() {
             {/* Editable: Button (A5) */}
             <Link
               href="#nosotros"
+              data-editable="button"
               className="btn-outline text-base px-8 py-4 group"
             >
               <Play size={16} className="fill-white" />

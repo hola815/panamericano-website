@@ -38,7 +38,7 @@ export default function OnlineEducation() {
 
   return (
     /* HOME-E-ONLINE */
-    <section id="online" data-block="HOME-E-ONLINE" className="py-12 lg:py-24 relative overflow-hidden" ref={ref}>
+    <section id="online" data-block="HOME-E-ONLINE" data-section="Startseite / Online-Bildung" className="py-12 lg:py-24 relative overflow-hidden" ref={ref}>
       {/* Background */}
       <div className="absolute inset-0 gradient-dark" />
       <div
@@ -71,12 +71,12 @@ export default function OnlineEducation() {
               Educación en Línea
             </span>
             {/* Editable: Headline (E2) */}
-            <h2 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-6">
+            <h2 data-editable="headline" className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-6">
               Estudia desde{" "}
               <span className="text-gradient">donde estés</span>
             </h2>
             {/* Editable: Text (E3) */}
-            <p className="text-white/70 text-lg leading-relaxed mb-8">
+            <p data-editable="text" className="text-white/70 text-lg leading-relaxed mb-8">
               Somos pioneros en educación en línea en Guatemala. Nuestra
               plataforma virtual permite a estudiantes de todo el país acceder
               a educación formal de calidad sin importar su ubicación.

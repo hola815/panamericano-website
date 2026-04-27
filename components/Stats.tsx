@@ -74,7 +74,7 @@ export default function Stats() {
 
   return (
     /* HOME-B-STATS */
-    <section id="home-b-stats" data-block="HOME-B-STATS" className="relative py-10 lg:py-16 bg-white" ref={ref}>
+    <section id="home-b-stats" data-block="HOME-B-STATS" data-section="Startseite / Statistiken" className="relative py-10 lg:py-16 bg-white" ref={ref}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Editable: Stat Cards (B1–B4) — edit the `stats` array above */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">

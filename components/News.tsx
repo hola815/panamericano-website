@@ -55,7 +55,7 @@ export default function News() {
 
   return (
     /* HOME-F-NEWS */
-    <section id="noticias" data-block="HOME-F-NEWS" className="py-12 lg:py-24 bg-white" ref={ref}>
+    <section id="noticias" data-block="HOME-F-NEWS" data-section="Startseite / Neuigkeiten" className="py-12 lg:py-24 bg-white" ref={ref}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -70,7 +70,7 @@ export default function News() {
               Blog y Noticias
             </span>
             {/* Editable: Headline (F2) */}
-            <h2 className="section-title">
+            <h2 data-editable="headline" className="section-title">
               Lo último del{" "}
               <span className="text-gradient">Panamericano</span>
             </h2>

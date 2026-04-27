@@ -79,7 +79,7 @@ export default function Contact() {
 
   return (
     /* HOME-H-CTA-CONTACT */
-    <section id="contacto" data-block="HOME-H-CTA-CONTACT" className="py-12 lg:py-24 bg-white" ref={ref}>
+    <section id="contacto" data-block="HOME-H-CTA-CONTACT" data-section="Startseite / Kontakt" className="py-12 lg:py-24 bg-white" ref={ref}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -93,7 +93,7 @@ export default function Contact() {
             Contáctanos
           </span>
           {/* Editable: Headline (H2) */}
-          <h2 className="section-title mb-4">
+          <h2 data-editable="headline" className="section-title mb-4">
             Estamos para{" "}
             <span className="text-gradient">ayudarte</span>
           </h2>
@@ -223,7 +223,7 @@ export default function Contact() {
                   </button>
                 </div>
 
-                <form onSubmit={handleSubmit} className="space-y-5">
+                <form onSubmit={handleSubmit} data-component="ContactForm" className="space-y-5">
                   <div className="grid sm:grid-cols-2 gap-5">
                     <div>
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">

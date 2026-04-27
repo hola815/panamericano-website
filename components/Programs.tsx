@@ -89,7 +89,7 @@ export default function Programs() {
 
   return (
     /* HOME-D-SERVICES */
-    <section id="programas" data-block="HOME-D-SERVICES" className="py-12 lg:py-24 bg-white" ref={ref}>
+    <section id="programas" data-block="HOME-D-SERVICES" data-section="Startseite / Programme" className="py-12 lg:py-24 bg-white" ref={ref}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -103,7 +103,7 @@ export default function Programs() {
             Oferta Educativa
           </span>
           {/* Editable: Headline (D2) */}
-          <h2 className="section-title mb-4">
+          <h2 data-editable="headline" className="section-title mb-4">
             Programas para{" "}
             <span className="text-gradient">cada etapa</span>
           </h2>
