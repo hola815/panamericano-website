@@ -75,7 +75,7 @@ const articles = [
   {
     slug: "ceremonia-graduacion-2025",
     title: "Ceremonia de graduación 2025: Celebrando el futuro de Guatemala",
-    date: "10 de enero, 2026",
+    date: "12 de enero, 2026",
     category: "Eventos",
     categoryColor: "bg-accent-100 text-accent-700",
     readTime: "4 min",
