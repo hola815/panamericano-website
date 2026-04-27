@@ -27,8 +27,7 @@ const posts = [
     title: "Ceremonia de graduación 2025: Celebrando el futuro de Guatemala",
     excerpt:
       "Más de 80 estudiantes recibieron sus diplomas en una emotiva ceremonia que celebra años de dedicación y esfuerzo.",
-    image:
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80",
+    image: "/Bild8.png",
     date: "12 de enero, 2026",
     category: "Eventos",
     categoryColor: "bg-accent-100 text-accent-700",
